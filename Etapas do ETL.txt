@@ -1,0 +1,20 @@
+As etapas do processo ETL podem variar dependendo da complexidade e dos requisitos específicos de um projeto, mas geralmente envolvem as seguintes etapas principais:
+
+Extração (Extraction):
+Nesta etapa, os dados são coletados de várias fontes, como bancos de dados, sistemas legados, arquivos CSV, APIs, entre outros. A extração pode ser realizada de forma completa, onde todos os dados são obtidos, ou incremental, onde apenas as alterações desde a última extração são consideradas.
+
+Transformação (Transformation):
+Após a extração dos dados, eles passam por uma etapa de transformação. Isso envolve limpeza, filtragem, validação e reestruturação dos dados para garantir sua qualidade e integridade. Durante essa etapa, podem ser aplicadas regras de negócios, como cálculos, agregações, derivação de novos campos e normalização de dados. A transformação também pode envolver a padronização de formatos, a correção de erros e a remoção de duplicatas.
+
+Limpeza de dados (Data Cleaning):
+A limpeza de dados é uma parte crítica da etapa de transformação. Ela inclui a identificação e correção de erros, valores ausentes, registros duplicados ou inconsistentes. A limpeza de dados é importante para garantir a qualidade dos dados e evitar problemas futuros durante a análise.
+
+Enriquecimento de dados (Data Enrichment):
+O enriquecimento de dados é uma etapa opcional em que informações adicionais são adicionadas aos dados existentes. Isso pode incluir a incorporação de dados provenientes de fontes externas, como dados geográficos, informações demográficas ou dados obtidos por meio de serviços de terceiros.
+
+Carga (Load):
+A etapa final do processo ETL envolve a carga dos dados transformados em um destino final, como um data warehouse, um banco de dados ou um sistema de armazenamento. Essa etapa pode incluir a criação de esquemas, tabelas ou estruturas de dados adequadas no destino e a definição de chaves primárias e estrangeiras para garantir a integridade dos dados carregados.
+
+Além dessas etapas principais, é comum realizar atividades adicionais, como o mapeamento de dados entre diferentes fontes e destinos, o gerenciamento de metadados (informações sobre os dados), a programação de tarefas de ETL em intervalos regulares e o monitoramento do desempenho do processo ETL.
+
+Vale ressaltar que o processo ETL pode ser complexo e exigir o uso de ferramentas especializadas, dependendo do volume e da diversidade dos dados envolvidos

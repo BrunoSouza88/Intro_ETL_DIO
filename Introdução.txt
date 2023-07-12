@@ -1,0 +1,20 @@
+O que é ETL
+
+E - Extract (CRM, LOB, ERP)
+T - Transform (Process, Routes, Maps)
+L - Load (Data Warehouses)
+
+É um tipo de data integration em três etapas, usadas para combinar dados de diversas fontes
+Ele é comumente usado apra construir data warehouses.
+
+Extract:
+Importação de dados de diversos tipos: TXT, JSON etc.
+
+Transform:
+Transformar os dados em colunas, linhas, mesclar dados etc.
+
+Load: 
+Basicamente carregar esses dados em algum lugar. Exemplo: Nuvem.
+
+ETLs podem ter vários tipos de dados (como dito anteriormente). Exemplo onde isso faz sentido.
+Bancos, onde se comunicam com vários outros sistemas internos ou externos.
